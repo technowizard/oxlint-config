@@ -1,0 +1,38 @@
+{
+  "name": "@fdhl/oxlint-config",
+  "version": "1.0.0",
+  "description": "An opinionated Oxlint config for TypeScript projects",
+  "keywords": [
+    "autofix",
+    "config",
+    "defaults",
+    "oxlint"
+  ],
+  "license": "MIT",
+  "author": "Muhammad Fadhil <mail@mfadhil.me>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/technowizard/oxlint-config.git"
+  },
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "format": "oxfmt --write .",
+    "lint": "oxlint ."
+  },
+  "dependencies": {
+    "eslint-plugin-no-only-tests": "^3.3.0",
+    "eslint-plugin-perfectionist": "^5.7.0",
+    "eslint-plugin-react-dom": "^3.0.0",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-unused-imports": "^4.4.1"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.42.0",
+    "oxlint": "^1.57.0"
+  },
+  "peerDependencies": {
+    "oxlint": ">=1.51.0"
+  }
+}

@@ -1,0 +1,35 @@
+export const typescriptConfig = {
+  "@typescript-eslint/ban-ts-comment": [
+    "error",
+    {
+      "ts-expect-error": "allow-with-description",
+    },
+  ],
+  "no-array-constructor": "error",
+  "@typescript-eslint/no-duplicate-enum-values": "error",
+  "@typescript-eslint/no-empty-object-type": [
+    "error",
+    {
+      allowInterfaces: "always",
+    },
+  ],
+  "@typescript-eslint/no-extra-non-null-assertion": "error",
+  "@typescript-eslint/no-import-type-side-effects": "error",
+  "@typescript-eslint/no-misused-new": "error",
+  "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
+  "@typescript-eslint/no-require-imports": "error",
+  "@typescript-eslint/no-unnecessary-type-constraint": "error",
+  "@typescript-eslint/no-unsafe-declaration-merging": "error",
+  "@typescript-eslint/no-unsafe-function-type": "error",
+  "no-unused-expressions": [
+    "error",
+    {
+      allowShortCircuit: true,
+      allowTaggedTemplates: true,
+      allowTernary: true,
+    },
+  ],
+  "@typescript-eslint/no-wrapper-object-types": "error",
+  "@typescript-eslint/prefer-as-const": "error",
+  "@typescript-eslint/prefer-namespace-keyword": "error",
+};
