@@ -38,13 +38,12 @@ npx oxlint .
 
 ### JS Plugins (ESLint-compatible, bridged via oxlint)
 
-| Plugin                                                                                                                                    | Purpose                              |
-| ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
-| [`eslint-plugin-perfectionist`](https://perfectionist.dev)                                                                                | Sorted imports, exports, named items |
-| [`eslint-plugin-react-dom`](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom)                    | React DOM-specific rules             |
-| [`eslint-plugin-react-hooks`](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)                            | Rules of hooks, exhaustive deps      |
-| [`eslint-plugin-unused-imports`](https://github.com/sweepline/eslint-plugin-unused-imports)                                               | Auto-remove unused imports and vars  |
-| [`eslint-plugin-no-only-tests`](https://github.com/levibuzolic/eslint-plugin-no-only-tests)                                               | Prevent `.only` in test files        |
+| Plugin                                                                                                                 | Purpose                              |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| [`eslint-plugin-perfectionist`](https://perfectionist.dev)                                                             | Sorted imports, exports, named items |
+| [`eslint-plugin-react-hooks`](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks)          | Rules of hooks, exhaustive deps      |
+| [`eslint-plugin-unused-imports`](https://github.com/sweepline/eslint-plugin-unused-imports)                            | Auto-remove unused imports and vars  |
+| [`eslint-plugin-no-only-tests`](https://github.com/levibuzolic/eslint-plugin-no-only-tests)                            | Prevent `.only` in test files        |
 
 ## Design Principles
 
