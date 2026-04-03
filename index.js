@@ -14,7 +14,6 @@ export const config = defineConfig({
   },
   jsPlugins: [
     'eslint-plugin-perfectionist',
-    'eslint-plugin-react-dom',
     'eslint-plugin-no-only-tests',
     'eslint-plugin-unused-imports'
   ],
